@@ -1,0 +1,81 @@
+body{
+    margin:0;
+    padding:0;
+    background-image:url(./image.jpg);
+    background-size:cover;
+    color:white;
+    text-align:center;
+}
+
+.container{
+    margin-top:60px;
+    border:5px solid white;
+    top:35%;
+    left:50%;
+    border-radius:14px;
+    padding:50px;
+    /* height:50%; */
+    transform:translate(-50%, -50%);
+    position:absolute;
+
+}
+
+.user .Username{
+    border:2px solid transparent;
+    background:transparent;
+    border-bottom:3px solid gray;
+    font-size:20px;
+    padding:5px;
+    text-align:center;
+    color:white;
+}
+.pass .password{
+    border:2px solid transparent;
+    background:transparent;
+    font-size:20px;
+    padding:5px;
+    border-bottom:3px solid gray;
+    text-align:center;
+    color:white;
+}
+
+#btnsubmit{
+    font-size:20px;
+    background:brown;
+    border-color:transparent;
+    padding:5px;
+    margin:20px;
+    width:144px;
+    color:white;
+    border-radius:15px;
+    cursor:pointer;
+}
+
+.user .Username:hover{
+    border:2px solid yellow;
+    color:white;
+    border-radius:15px;
+    font-size:22px;
+}
+.pass .password:hover{
+    border:2px solid yellow;
+    color:white;
+    border-radius:15px;
+    font-size:22px;
+}
+#btnsubmit:hover{
+    background:rgb(115, 115, 224);
+    font-size:22px
+}
+
+.container2{
+    border:3px solid white;
+    border-radius:5px;
+    margin-top:5px;
+}
+#signuplink{
+    color:white;
+}
+#signuplink:hover{
+    color:gray;
+}
